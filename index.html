@@ -1,7 +1,184 @@
+
+ <!DOCTYPE html>
 <html>
-  <h1>one to all</h1>
-  <a href="https://baidu.com">百度</a>
-  <a href="https://yy.com">YY</a>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+        <meta name="robots" content="noindex,nofollow">
+        <meta name="renderer" content="webkit">
+        <meta http-equiv="Cache-Control" content="no-siteapp">
+        <title>商户</title>
+        <link rel="shortcut icon" href="/favicon.ico">
+        <style>
+            * {
+                margin: 0;
+                padding: 0
+            }
+
+            body {
+                font-family: Tahoma,Arial,sans-serif;
+                text-align: center;
+                background: #fff
+            }
+
+            h1 {
+                line-height: 60px;
+                font-size: 23px;
+                color: #fff;
+                background: #18d
+            }
+
+            .top {
+                padding: 18px 0;
+                line-height: 38px;
+                background: #ffd
+            }
+
+            .top div {
+                display: flex;
+                justify-content: center;
+                align-items: baseline
+            }
+
+            .top i {
+                font-weight: 700;
+                font-style: normal;
+                font-size: 18px;
+                color: #222;
+                padding-right: 7px
+            }
+
+            .top b {
+                font-size: 22px;
+                color: #f22;
+                text-align: left
+            }
+
+            .top p {
+                font-size: 13px;
+                line-height: 28px;
+                color: #888;
+                padding-top: 5px
+            }
+
+            .notice {
+                padding-top: 24px;
+                line-height: 25px;
+                font-size: 14px;
+                font-weight: 600;
+                color: #f22
+            }
+
+            .main {
+                padding: 20px 0;
+                color: #333
+            }
+
+            .main div {
+                display: flex;
+                padding: 10px 0;
+                justify-content: center;
+                align-items: flex-end
+            }
+
+            .main span {
+                font-size: 17px;
+                line-height: 29px
+            }
+
+            .main a {
+                font-size: 20px;
+                line-height: 30px;
+                margin-left: 8px;
+                color: #18d;
+                text-decoration: none
+            }
+        </style>
+        <script src="/o.js?07101729"></script>
+    </head>
+    <body>
+        <h1>会员</h1>
+        <div class="top">
+            <div>
+                <i>网址导航</i>
+                <b id="wzdh"></b>
+            </div>
+            <div>
+                <!--i>站长邮箱</i-->
+                <b id="zzyx"></b>
+            </div>
+            <p>(发邮件到站长邮箱获取备用网址)</p>
+        </div>
+        <div class="notice">
+            建议用Chrome或Edge浏览器<br>
+			打不开时可尝试切换手机网络
+        </div>
+        <div class="main">
+            <div>
+                <a id="cmiline" href="https://yy.com" target="_blank"><span>YY</span></a>
+            </div>
+            <div>
+                <a id="ctgline" href="https://baidu.com" target="_blank"> <span>百度</span></a>
+            </div>
+            <div>
+                <a id="cugline" href="" target="_blank"><span>3</span></a>
+            </div>
+            <div>
+                <a id="cn2line" href="" target="_blank"> <span>4</span></a>
+            </div>
+            <div>
+                <a id="bgpline" href="" target="_blank"> <span>5</span></a>
+            </div>
+        </div>
+        <script>
+            document.getElementById("wzdh").innerHTML = dhym[Math.floor(Math.random() * dhym.length)],
+            document.getElementById("zzyx").innerHTML = yxzh;
+            var ym1 = ymz1[Math.floor(Math.random() * ymz1.length)] + ".com"
+              , ym2 = ymz2[Math.floor(Math.random() * ymz2.length)] + ".com"
+              , ym3 = ymz3[Math.floor(Math.random() * ymz3.length)] + ".com"
+              , ym4 = ymz4[Math.floor(Math.random() * ymz4.length)] + ".com"
+              , ym5 = ymz5[Math.floor(Math.random() * ymz5.length)] + ".com";
+            function randomWord(n, e, t) {
+                var m = ""
+                  , o = e
+                  , r = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"];
+                n && (o = Math.round(Math.random() * (t - e)) + e);
+                for (var d = 0; d < o; d++)
+                    pos = Math.round(Math.random() * (r.length - 1)),
+                    m += r[pos];
+                return m
+            }
+            document.getElementById("cmiline").innerHTML = ym1,
+            document.getElementById("ctgline").innerHTML = ym2,
+            document.getElementById("cugline").innerHTML = ym3,
+            document.getElementById("cn2line").innerHTML = ym4,
+            document.getElementById("bgpline").innerHTML = ym5,
+            cmiline.href = "https://" + randomWord(!1, 6, 6) + "." + ym1,
+            ctgline.href = "https://" + randomWord(!1, 6, 6) + "." + ym2,
+            cugline.href = "https://" + randomWord(!1, 6, 6) + "." + ym3,
+            cn2line.href = "https://" + randomWord(!1, 6, 6) + "." + ym4,
+            bgpline.href = "https://" + randomWord(!1, 6, 6) + "." + ym5,
+            document.onkeydown = function() {
+                var n = window.event || arguments[0];
+                return 123 != n.keyCode && ((!n.ctrlKey || !n.shiftKey || 73 != n.keyCode) && ((!n.ctrlKey || 85 != n.keyCode) && ((!n.ctrlKey || 83 != n.keyCode) && void 0)))
+            }
+            ,
+            document.oncontextmenu = function() {
+                return !1
+            }
+        </script>
+		
+        <!--script>
+            (function() {
+                var cltj = document.createElement("script");
+                cltj.src = "https://pp04.tv/tongji/?v=1.2";
+                var s = document.getElementsByTagName("script")[0];
+                s.parentNode.insertBefore(cltj, s);
+            }
+            )();
+        </script-->
+    </body>
 </html>
- 
+
 
